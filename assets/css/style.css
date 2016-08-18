@@ -10,7 +10,7 @@ body {
 
 	margin: 0px auto;
 
-	margin-bottom: 300px;
+	margin-bottom: 500px;
 
 	background-color: #e71218;
 
@@ -83,12 +83,13 @@ body {
 	margin-top: 100px;
 
 
+
 }
 
 .bio {
 
 	background-color: #bb0000;
-
+ 
 }
 
 .well {
@@ -106,19 +107,16 @@ body {
 
 
 
+
 }
 
-.footer {
+.footerdiv {
 
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-
-	height: 300px;
-	background-color: black;
-
-	
-
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
 }
 
 .copy{
@@ -173,6 +171,7 @@ body {
 
 
 }
+
 
 .emailbutton {
 
