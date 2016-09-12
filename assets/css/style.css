@@ -1,12 +1,15 @@
 html {
 
 	background-color: #e71218;
+
+	min-height: 100%;
+
+	position: relative;
 }
 
 body {
 
 	background-color: #e71218;
-
 }
 
 .bg-inverse {
@@ -104,6 +107,8 @@ body {
 .bg-faded {
 
     background-color: black;
+
+    position: relative;
 }
 
 .copy{
@@ -137,7 +142,6 @@ body {
 }
 
 .socialbuttons {
-
 
 	text-align: center;
 
@@ -198,8 +202,151 @@ body {
 
 }
 
-.portfolioRow{
+.portfolioRow1{
 
 	margin-top: 3em;
+
+}
+
+.footerAll {
+
+    width: 100%;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+html, body {
+
+	height: 100%;
+
+}
+
+.wrap {
+
+	min-height: 100%;
+
+}
+
+.main {
+
+	overflow:auto;
+	padding-bottom: 17.68em; /* must be same height as the footer */
+
+}  
+
+.footer {
+
+	position: relative;
+
+	margin-top: -17.68em; /* negative value of footer height */
+	
+	height: 17.68em;
+
+	clear:both;
+
+} 
+
+.futureNext{
+
+	visibility: hidden;
+
+}
+
+.card-text{
+
+	font-family: 'Poiret One', cursive;
+
+	color: #ffffff;
+
+	font-size: 1.2em
+
+}
+
+.project{
+
+	background-color: black;
+
+}
+
+.card-title{
+
+	font-family: 'Squada One', cursive;
+
+	color: #ffffff;
+
+	text-align: center;
+
+}
+
+.btn-project { 
+  color: #000000; 
+  background-color: #E71218; 
+  border-color: #FFFFFF; 
+
+  font-size: 1.5em;
+
+  font-family: 'Squada One', cursive;
+
+  width: 100%
+} 
+ 
+.btn-project:hover, 
+.btn-project:focus, 
+.btn-project:active, 
+.btn-project.active, 
+.open .dropdown-toggle.btn-project { 
+  color: #000000; 
+  background-color: #8F0A0A; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-project:active, 
+.btn-project.active, 
+.open .dropdown-toggle.btn-project { 
+  background-image: none; 
+} 
+ 
+.btn-project.disabled, 
+.btn-project[disabled], 
+fieldset[disabled] .btn-project, 
+.btn-project.disabled:hover, 
+.btn-project[disabled]:hover, 
+fieldset[disabled] .btn-project:hover, 
+.btn-project.disabled:focus, 
+.btn-project[disabled]:focus, 
+fieldset[disabled] .btn-project:focus, 
+.btn-project.disabled:active, 
+.btn-project[disabled]:active, 
+fieldset[disabled] .btn-project:active, 
+.btn-project.disabled.active, 
+.btn-project[disabled].active, 
+fieldset[disabled] .btn-project.active { 
+  background-color: #E71218; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-project .badge { 
+  color: #E71218; 
+  background-color: #000000; 
+}
+
+.portfolio-container{
+
+	background-color: #bb0000;
+
+	border: 1px solid #bb0000;
+
+	padding-left: 2em;
+
+	padding-right: 2em;
+
+	padding-bottom: 1em;
+
+	margin-bottom: 1em;
+
+	margin-top: 1em;
 
 }
