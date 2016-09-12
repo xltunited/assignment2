@@ -62,8 +62,6 @@ body {
 	font-size: 4em;
 	font-family: 'Berkshire Swash', cursive;
 
-	
-
 }
 
 .profilebox {
@@ -83,8 +81,6 @@ body {
 	
 	margin-top: 3em;
 
-
-
 }
 
 .bio {
@@ -102,9 +98,6 @@ body {
 	font-family: 'Poiret One', cursive;
 
 	padding: .5em;
-
-
-
 
 }
 
@@ -166,7 +159,6 @@ body {
 
 }
 
-
 .emailbutton {
 
 	color: white;
@@ -178,12 +170,30 @@ body {
 
 	text-align: center;
 
+}
+
+.form-control{
+
+	margin-top: 1em;
 
 }
 
-.su {
+.form-group{
 
-	float: left;
+	margin-bottom: 1.5em;
 
-	margin-right: 20px;
+}
+
+.contactRow{
+
+	margin-top: 2em;
+
+	text-align: right;
+
+}
+
+.message{
+
+	height: 10em;
+
 }
